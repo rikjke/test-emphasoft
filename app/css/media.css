@@ -1,0 +1,127 @@
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+@media only screen and (max-width : 992px) {
+  .header__hamburger {
+    display: block
+  }
+  .menu__item {
+    margin-bottom: 10px;
+  }
+  .header .contacts {
+    display: block;
+  }
+  .footer .footer__logo {
+    display: none;
+  }
+  .footer .phone-contacts {
+    display: none;
+  }
+  .footer .contacts {
+    display: none;
+  }
+  .footer__rights {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .header__content {
+    width: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 100px;
+    min-height: calc(100vh - 71px);
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 4;
+    background-color: #41424f;
+    transition: .25s ease;
+    color: #fff;
+    padding: 40px;
+    align-items: flex-start;
+    align-content: flex-start;
+    transform: translateX(-100%)
+  }
+  .header__inner {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    padding: 0;
+  }
+  .header__mobile-logo {
+    display: block;
+  }
+  .header__button, .menu__link {
+    color: #fff
+  }
+  .header__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .navigation .menu {
+    flex-direction: column;
+  }
+  .header__logo {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width : 768px) {
+  .section__button {
+    width: 100%;
+  }
+  .desktop-br {
+    display: none;
+  }
+  .section {
+    padding: 80px 20px;
+  }
+  .download__link {
+    text-decoration: underline;
+  }
+  .download__link::before {
+    top: 18px
+  }
+  .download__link::after {
+    display: none
+  }
+  .install-steps__step {
+    font-size: 18px;
+  }
+  .channel__link::after {
+    display: none
+  }
+  .channel__link {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .steps {
+    justify-content: center;
+    margin-top: 90px;
+  }
+  .step {
+    margin-right: 0px;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .step__icon {
+    margin: 0 auto;
+  }
+  .step::after {
+    left: 15%;
+    bottom: -40px;
+  }
+}
+
+
+@media only screen and (max-width : 320px) {
+
+}
