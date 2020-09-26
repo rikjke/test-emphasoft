@@ -106,6 +106,7 @@
   .steps {
     justify-content: center;
     margin-top: 90px;
+  	flex-wrap: wrap;
   }
   .step {
     margin-right: 0px;
